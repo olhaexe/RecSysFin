@@ -4,7 +4,7 @@ Final Project for Recommendation Systems
 Описание проекта
 
 Несмотря на то, что добавила в Recommender много вариантов получения кандидатов и попробовала огромное количество параметров, оптимальным оказался вариант решения, также реализованный на основании предыдущих покупок пользователя без применения машинного обучения, на фильтрации и сортировке. Теоретически рекомендации на основании собственных покупки пользователя должен выдавать ItemItemRecommender с k=1, но он работает хуже ручной обработки. Оставляю два варианта кода: 
-- полная версия с включением ML-вариантов получения кандидатов, которые дают плачевные метрики: https://github.com/olhaexe/RecSysFin/blob/main/final_recs-full.ipynb и 
+- полная версия с включением ML-вариантов получения кандидатов, которые дают плачевные метрики (при других способах обработки и параметрах - максимум около 12%): https://github.com/olhaexe/RecSysFin/blob/main/final_recs-full.ipynb и 
 - урезанный до рабочей схемы https://github.com/olhaexe/RecSysFin/blob/main/final_recs_light.ipynb
 HTML: https://github.com/olhaexe/RecSysFin/blob/main/final_recs_light.html
 Рекомендации: https://github.com/olhaexe/RecSysFin/blob/main/OBerezovskaya_recs.csv
